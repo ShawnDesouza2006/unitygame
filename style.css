@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(19, 30, 109);
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+}
+
+header{
+    font-size: 50px;
+    padding: 1%;
+    background-color: rgb(52, 62, 149);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    color: rgb(255, 175, 48);
+    letter-spacing: 2px;
+}
+
+.navbar a{
+    text-align: right;
+    display: block;
+    margin-right: 1% ;
+    color: rgb(255, 175, 48);
+    font-size: 110%;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.highlighted-text{
+    background-color: rgb(15, 29, 96);
+    border-radius: 10px;
+    padding: 2px 8px;
+}
+
+.highlighted-text:hover{
+    background-color: rgba(128, 128, 128, 0.478);
+    padding: 4px 16px;
+}
+
+.highlighted-text:hover{
+    color: white;
+}
+
+.navbar{
+    background-color: rgba(52, 62, 149, 0.473);
+    padding: 1%;
+}
+
+
